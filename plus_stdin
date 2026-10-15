@@ -2,14 +2,10 @@
 import sys
 
 x = 0.0
-od,ev = 0,0
 for line in sys.stdin:
-    x += float(line)
-    if x % 2 == 0 :
-       ev += 1
-    else:
-       od += 1
+    try:
+        x += int(line)
+    except ValueError:
+        x += float(line)
 
-print("sum :", x)
-print("even number :", ev)
-print("odd number :", od)
+print(x)
