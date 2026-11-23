@@ -20,7 +20,7 @@
 ・© 2026 Madoka Hori
 
 # searchコマンド
-![test](https://github.com/s25c1099/robosys2026/blob/main/.github/workflows/test_search.yml/badge.svg)
+![test](https://github.com/s25c1099/robosys2026/actions/workflows/test_search.yml/badge.svg)
 
 標準入力から特定の文字が含まれる行を取り出すコマンドです。
 
