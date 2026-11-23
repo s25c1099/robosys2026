@@ -9,8 +9,15 @@ parser = argparse.ArgumentParser()
 parser.add_argument("word")
 args = parser.parse_args()
 
+found = False
+
 for line in sys.stdin:
     target = line
 
     if args.word in target:
-        print(line)
+        print(line, end = "")
+
+        found =True
+
+if not found:
+    sys.exit(1)
