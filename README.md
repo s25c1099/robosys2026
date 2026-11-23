@@ -1,3 +1,6 @@
+# robosys2026
+このリポジトリはロボットシステム学の授業で利用するリポジトリです。いくつかのソフトウェアパッケージを公開しています。  
+
 # plusコマンド
 ![test](https://github.com/s25c1099/robosys2026/actions/workflows/test.yml/badge.svg)
 
