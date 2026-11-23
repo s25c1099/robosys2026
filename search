@@ -12,5 +12,5 @@ args = parser.parse_args()
 for line in sys.stdin:
     target = line
 
-    if word in target:
+    if args.word in target:
         print(line)
