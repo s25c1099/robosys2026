@@ -51,6 +51,6 @@ Python is fun
 ・© 2026 Madoka Hori
 ## 謝辞・参照
 本プログラムの作成にあたり、Python Software Foundationが提供するPython標準ライブラリのドキュメントを参考にしました。  
-・Python標準ライブラリ
+・Python標準ライブラリ  
 https://docs.python.org/ja/3/library/index.html
 （参照日：2026年11月23日）
