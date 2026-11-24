@@ -27,14 +27,17 @@
 ## 使用方法
 コマンドライン引数で指定したキーワードを、標準入力から受け取った文章の中から検索するプログラムです。  
 コマンド`python3 search 検索ワード`で実行されます。  
+  
 文章を標準入力から与える場合はパイプを使用します。  
 ```
 ### Pythonを検索キーワードとする場合
 $echo -e "I like Python.\nI like Java.\nPython is fun.\nI study C." | python3 search Python
 ```
-実行結果は  
+実行結果は 
+  
 I like Python.  
 Python is fun  
+  
 となります。
 
 ## 必要なソフトウェア
