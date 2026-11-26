@@ -27,17 +27,17 @@
 ## インストール方法
 下記のコマンドを実行してください。
 ```
-$git clone git@github.com:s25c1099/robosys2026.git
+$ git clone git@github.com:s25c1099/robosys2026.git
 ```
 
 ## 使用方法
 コマンドライン引数で指定したキーワードを、標準入力から受け取った文章の中から検索するプログラムです。  
-コマンド`python3 search 検索ワード`で実行されます。  
+コマンド`$ python3 search 検索ワード`で実行されます。  
   
 文章を標準入力から与える場合はパイプを使用します。  
 ```
 ### Pythonを検索キーワードとする場合
-$echo -e "I like Python.\nI like Java.\nPython is fun.\nI study C." | python3 search Python
+$ echo -e "I like Python.\nI like Java.\nPython is fun.\nI study C." | python3 search Python
 ```
 実行結果は 
   
